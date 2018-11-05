@@ -18,16 +18,16 @@ Aby móc korzystać z usługi, należy wysłać email na adres teryt_ws1@stat.go
 
 Informacja zwrotna do użytkownika zostanie przesłana zaraz po założeniu konta. Dla
 środowiska produkcyjnego adresy są następujące:
- Adres usługi produkcyjnej: https://uslugaterytws1.stat.gov.pl/terytws1.svc
- Adres dokumentu wsdl: https://uslugaterytws1.stat.gov.pl/wsdl/terytws1.wsdl
+	Adres usługi produkcyjnej: https://uslugaterytws1.stat.gov.pl/terytws1.svc
+	Adres dokumentu wsdl: https://uslugaterytws1.stat.gov.pl/wsdl/terytws1.wsdl
 
 Obtained creds paste here:
 
-fsi_teryt_db:
-    api:
-        url: "https://uslugaterytws1.stat.gov.pl/wsdl/terytws1.wsdl"
-        username: "<your username>"
-        password: "<your password>"
+	fsi_teryt_db:
+	    api:
+		url: "https://uslugaterytws1.stat.gov.pl/wsdl/terytws1.wsdl"
+		username: "<your username>"
+		password: "<your password>"
 
 Then follow the https://github.com/fsi-open/teryt-database-bundle README like so:
 
